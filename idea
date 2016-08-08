@@ -1,0 +1,6 @@
+Start
+look for existing 'ulog' files from yesterday
+if more than one file merge to one 
+extract all the labels and add to a json along with date and file name
+create a new ulog file. <Another Thread>
+open old and new files in vim
