@@ -20,7 +20,6 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-import java.io.File;
 import java.util.ArrayList;
 
 public class App {
@@ -37,7 +36,7 @@ public class App {
 				//files.add();
 			}
 			for (String extn:extnlist)
-			{
+			{	//TODO: pass extension-list instead of extension so that all the finding files thing is not repeated.
 				Log log = new Log(home,extn);
 				log.processFiles();
 
